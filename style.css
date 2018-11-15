@@ -1,0 +1,45 @@
+#dMatch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pMin{
+    float: left;
+}
+
+#noEvents{
+    text-align: center;
+}
+
+#homeName{
+    width: 33%;
+}
+
+#pMin{
+    width: 10%;
+}
+
+
+#score{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 20%
+}
+
+#awayName{
+    width: 33%;
+}
+
+#league{
+    background-color: lightblue;
+    border-radius: 3px;
+}
+
+
+.jumbotron{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+

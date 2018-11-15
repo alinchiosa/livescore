@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Live Score</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href = "style.css">
+</head>
+<body>
+    <br>
+    <div class="container"> 
+        <div class="jumbotron" style="padding-bottom:20px; padding-top: 20px;">
+            <h1>LiveScore</h1>
+        </div>
+    </div>
+
+    <div class="container" >
+        <div class="jumbotron" style="padding-bottom:20px; padding-top: 20px;">
+                <button type="button" class="btn btn-success" onclick="showLiveScores()">Live Scores</button>
+                <button type="button" class="btn btn-success" onclick="showLiveScoresFromDenmark()">Live Scores from Denmark</button>
+                <button type="button" class="btn btn-success" onclick="showTomorrowsFixtures()">Fixtures for tomorrow</button>
+        </div>
+    </div>
+
+    <div class="container" id="matchesInfo">
+        <div class="jumbotron" id="liveScores" style="display:none"></div>
+        <div class="jumbotron" id='liveScoresFromDenmark' style="display:none"></div>
+        <div class="jumbotron" id='tomorrowsFixtures' style="display:none"></div>
+    </div>
+
+    <script src="/main.js"></script>
+
+</body>
+</html>
